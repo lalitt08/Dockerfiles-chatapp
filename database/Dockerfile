@@ -1,0 +1,7 @@
+FROM mysql:8.0
+ENV MYSQL_ROOT_PASSWORD='admin123' \
+    MYSQL_DATABASE='chatappdb' \
+    MYSQL_USER='admin' \
+    MYSQL_PASSWORD='admin123'
+EXPOSE 3306
+
